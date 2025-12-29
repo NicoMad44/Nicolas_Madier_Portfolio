@@ -24,15 +24,15 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Skills />
-      <Service />
       <Projects />
+      <Skills />
+      {/* <Service />
       <Testimonials />
-      <Hireme />
+      <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">NICOLAS MADIER</h6>
+        {/* <p>codeaprogram © All CopyRights Reserved 2022</p> */}
       </footer>
     </div>
   );

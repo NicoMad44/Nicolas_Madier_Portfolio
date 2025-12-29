@@ -7,12 +7,15 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import sass from "./assets/images/Skills/sass.png";
+import reactRouter from "./assets/images/Skills/reactRouter.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
+import projectKasa from "./assets/images/projects/imgKasa.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
@@ -33,6 +36,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import React from "react";
 
 export const content = {
   nav: [
@@ -58,19 +62,23 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "Experienced Programme Manager, Junior Web Developer",
+    firstName: "NICOALS",
+    LastName: "MADIER",
+    btnText: "Contact Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "15+",
+        text: "Years of Experinse in Programme Management",
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
+        count: "10+",
+        text: "Digital & Non-Digital Projects Worked in my career",
+      },
+      {
+        count: "7+",
+        text: "Web Developper course projects",
       },
     ],
   },
@@ -108,6 +116,11 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: python,
       },
+      {
+        name: "Sass",
+        para: "Lorem ipsum text  dummy",
+        logo: sass,
+      },
     ],
     icon: MdArrowForward,
   },
@@ -134,21 +147,28 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "Web developper projects",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "Kasa - Appartement sharing Platform",
+        image: projectKasa,
+        url: "https://nicomad44.github.io/Kasa/",
+        skillsTags: [
+          reactjs,
+          sass,
+          reactRouter,
+        ]
+        
       },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
+      // {
+      //   title: "Social Media web",
+      //   image: project2,
+      // },
+      // {
+      //   title: "Creative Website",
+      //   image: project3,
+      // },
     ],
   },
   Testimonials: {

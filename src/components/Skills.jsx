@@ -35,14 +35,14 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-bg_light_primary" id="skills">
+    <section className="min-h-fit" id="skills">
       {/* modal */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <div className="flex items-center gap-2">
+        <div className="flex  bg-bg_light_primary items-center gap-2">
           <img className="h-10" src={selectSkill?.logo} alt="..." />
           <h6>{selectSkill?.name}</h6>
         </div>

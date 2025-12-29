@@ -12,7 +12,7 @@ const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="md:container px-5 pt-14 min-h-0 md:min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -23,12 +23,12 @@ const Projects = () => {
           <br />
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
+          {/* <img
             src={Projects.image}
             alt="..."
             data-aos="fade-right"
             className="max-w-[45vw] min-w-[22rem]"
-          />
+          /> */}
           <Swiper
             pagination={{
               clickable: true,
@@ -36,19 +36,38 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 w-4/5 drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
+                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit flex flex-col gap-2"
               >
-                <img src={content.image} alt="..." />
+                <h5 className="font-bold font-Poppins">{content.title}</h5>
+                <img className="rounded-2xl self-center" src={content.image} alt="site home page screenshot" />
                 <div className="flex flex-col gap-1 mt-2">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
+                <h6>Skills</h6>
+                  <div className="flex gap-3">
+                  {content.skillsTags.map((skill, j) => (
+                      <img
+                      src={skill}
+                      alt="logo"
+                      className="w-10"
+                      key={j}
+                    />
+                    ))}
+                  </div>
+                  
+                
+
+                </div>
+                <div className="flex flex-col gap-1 mt-2">
+                  <a href={content.url}
+                  target="_blank">
                   <button className="font-bold text-gray self-end">
-                    READ MORE
+                    Visit the site
                   </button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
