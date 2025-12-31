@@ -14,7 +14,7 @@ import { Pagination } from "swiper";
 const Projects = () => {
   const { Projects } = content;
   return (
-    <section className="bg-bg_light_primary" id="projects">
+    <section  id="projects">
       <div className="md:container px-5 pt-14 min-h-0 md:min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 // import components
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
@@ -24,8 +25,8 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Projects />
       <Skills />
+      <Projects />
       <Service />
       {/* <Testimonials />
       <Hireme /> */}

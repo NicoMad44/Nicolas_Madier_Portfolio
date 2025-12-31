@@ -4,6 +4,10 @@ import { createElement, useState } from "react";
 import { content } from "../Content";
 // import modal package
 import Modal from "react-modal";
+// import ball
+import { BallCanvas } from './canvas';
+//import skill logo
+import reactLogo from '../assets/images/Skills/react.png'
 
 const customStyles = {
   content: {
@@ -36,7 +40,7 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit" id="skills">
+    <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
       <Modal
         isOpen={modalIsOpen}
@@ -111,6 +115,9 @@ const Skills = () => {
           ))}
         </div>
       </div>
+
+      <BallCanvas icon={reactLogo} />
+
     </section>
   );
 };
