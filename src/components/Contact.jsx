@@ -18,8 +18,6 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          // Clear all input field values
-          form.current.reset();
           // Success toast message
           toast.success("Email send Successfully");
         },
@@ -38,8 +36,6 @@ const Contact = () => {
           console.log(result.text);
           // Clear all input field values
           form.current.reset();
-          // Success toast message
-          toast.success("Email send Successfully");
         },
         (error) => {
           console.log(error.text);
