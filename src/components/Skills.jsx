@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 // import content
 import { createElement, useState } from "react";
 import { content } from "../Content";

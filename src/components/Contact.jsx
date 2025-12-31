@@ -13,7 +13,25 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_08698mf', 'template_y6ktxaa', form.current, 'v-SPtmQ9yPKbeUuHK'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // Clear all input field values
+          form.current.reset();
+          // Success toast message
+          toast.success("Email send Successfully");
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error(error.text);
+        }
+      );
+
+      emailjs
+      .sendForm(
+      'service_08698mf', 'template_zhbkh4l', form.current, 'v-SPtmQ9yPKbeUuHK'
       )
       .then(
         (result) => {
@@ -60,7 +78,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email address"
               required
               className="border border-slate-600 p-3 rounded"
             />

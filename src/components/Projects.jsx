@@ -6,6 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+// Import Project Details collapsable box
+import { ProjectDetailsBox } from "./ProjectDetailsBox";
+
 import { Pagination } from "swiper";
 
 const Projects = () => {
@@ -46,19 +49,24 @@ const Projects = () => {
                 <h5 className="font-bold font-Poppins">{content.title}</h5>
                 <img className="rounded-2xl self-center" src={content.image} alt="site home page screenshot" />
                 <div className="flex flex-col gap-1 mt-2">
-                <h6>Skills</h6>
+
+                  <h6>Skills</h6>
                   <div className="flex gap-3">
-                  {content.skillsTags.map((skill, j) => (
-                      <img
-                      src={skill}
-                      alt="logo"
-                      className="w-10"
-                      key={j}
-                    />
-                    ))}
+                    {content.skillsTags.map((skill, j) => (
+                        <img
+                        src={skill}
+                        alt="logo"
+                        className="w-10 box-content"
+                        key={j}
+                      />
+                      ))}
                   </div>
+
+                  <h6>Project Details</h6>
+                  {content.description.map((item, j) => (
+                       <ProjectDetailsBox key={item.subtitle+j} title={item.subtitle} content={item.subtexts} />
+                      ))}
                   
-                
 
                 </div>
                 <div className="flex flex-col gap-1 mt-2">

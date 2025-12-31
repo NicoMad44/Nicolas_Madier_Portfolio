@@ -26,8 +26,8 @@ const App = () => {
       <Hero />
       <Projects />
       <Skills />
-      {/* <Service />
-      <Testimonials />
+      <Service />
+      {/* <Testimonials />
       <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
