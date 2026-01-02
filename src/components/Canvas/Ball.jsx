@@ -12,7 +12,7 @@ import Loader from '../Loader';
 
 const Ball = (props) => {
 
-    console.log("Ball imgUrl =", props.imgUrl);
+    // console.log("Ball imgUrl =", props.imgUrl);
 
   const [decal] = useTexture([props.imgUrl]);
 

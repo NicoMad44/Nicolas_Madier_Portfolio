@@ -159,7 +159,7 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "Web developper projects",
-    image: person_project,
+    // image: person_project,
     project_content: [
       {
         title: "Kasa - Apartment sharing platform",
