@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       
-      <div className="md:container px-5  py-14">
+      <div className="md:container px-5  pt-14">
         <h2 className="title" data-aos="fade-down">
             {skills.title}
           </h2>
@@ -21,7 +21,7 @@ const Skills = () => {
       </div>
       <div className="grid grid-cols-3 md:grid-cols-6 gap-2 md:container px-5  py-14">
         {skills.skills_content.map((skill, i) => (
-          <div key={i+4242}  data-aos="fade-up" data-aos-delay="800" data-aos-duration="5000">
+          <div key={i+4242} data-aos="fade-up" data-aos-delay={i*150}  >
           <CoinCanvas 
             key={i} 
             icon={skill.logo} 
