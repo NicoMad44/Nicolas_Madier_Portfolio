@@ -2,7 +2,7 @@
 // import content
 import { content } from "../Content";
 // import ball
-import { BallCanvas } from './canvas';
+import { CoinCanvas } from './canvas';
 
 
 
@@ -22,7 +22,7 @@ const Skills = () => {
       <div className="grid grid-cols-3 md:grid-cols-6 gap-2 md:container px-5  py-14">
         {skills.skills_content.map((skill, i) => (
           <div key={i+4242}  data-aos="fade-up" data-aos-delay="800" data-aos-duration="5000">
-          <BallCanvas 
+          <CoinCanvas 
             key={i} 
             icon={skill.logo} 
             />

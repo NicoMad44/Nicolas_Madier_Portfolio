@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { createElement, useRef } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
@@ -55,7 +56,7 @@ const Contact = () => {
           {Contact.subtitle}
         </h4>
         <br />
-        <div className="flex gap-10 md:flex-row flex-col">
+        <div className="flex gap-10 md:flex-row flex-col-reverse">
           <form
             ref={form}
             onSubmit={sendEmail}

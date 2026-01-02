@@ -32,7 +32,7 @@ const Projects = () => {
               clickable: true,
             }}
             loop
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, disableOnInteraction: true }}
             speed={600}
             data-aos="fade-left"
             spaceBetween={20}

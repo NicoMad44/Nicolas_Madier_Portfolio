@@ -42,6 +42,11 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaLayerGroup } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
+
+
 import React from "react";
 
 export const content = {
@@ -52,15 +57,15 @@ export const content = {
     },
     {
       link: "#skills",
-      icon: BiUser,
-    },
-    {
-      link: "#services",
-      icon: RiServiceLine,
+      icon: FaLayerGroup,
     },
     {
       link: "#projects",
-      icon: RiProjectorLine,
+      icon: FaLaptopCode,
+    },
+    {
+      link: "#services",
+      icon: MdWork,
     },
     {
       link: "#contact",
@@ -401,7 +406,7 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "nicoals.madier@gmail.com",
+        text: "nicolas.madier@gmail.com",
         icon: GrMail,
         link: "mailto:nicolas.madier@gmail.com",
       },

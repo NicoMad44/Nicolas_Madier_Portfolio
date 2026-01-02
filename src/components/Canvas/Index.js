@@ -1,3 +1,3 @@
-import BallCanvas from './Ball';
+import CoinCanvas from './Coin';
 
-export { BallCanvas };
+export { CoinCanvas };
