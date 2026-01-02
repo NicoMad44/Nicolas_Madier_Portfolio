@@ -1,5 +1,7 @@
 import arrow from "../assets/images/arrowUp.png"
 import { useState } from "react"
+import { HiChevronUp } from "react-icons/hi";
+
 
 export function ProjectDetailsBox({title, content}){
 
@@ -24,7 +26,7 @@ export function ProjectDetailsBox({title, content}){
     return (
         <div className="flex flex-col mb-1">
 
-            <div className="flex justify-between items-center bg-primaryLinear rounded-md mt-2 p-2 ">
+            <div className="flex justify-between items-center  bg-bg_light_primary rounded-md mt-2 p-2 ">
                 <h6>{title}</h6>
                 <div 
                 onClick={handleClick}
@@ -32,10 +34,10 @@ export function ProjectDetailsBox({title, content}){
                     cursor:'pointer',
                     display:'inline-block',
                     transition: 'transform 0.5s ease',
-                    transform: isOpenStatus ? 'rotate(-180deg)' : 'rotate(0deg)'
+                    transform: isOpenStatus ? 'rotate(0deg)' : 'rotate(-180deg)'
                 }}
                 >
-                    <img src={arrow} alt="boutton pour ouvrir ou fermer la modal montrant"/>
+                    <HiChevronUp />
                 </div>
             </div>
 

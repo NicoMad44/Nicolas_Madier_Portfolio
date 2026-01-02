@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -71,7 +72,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col gap-1 mt-2">
                   <a href={content.url}
-                  target="_blank">
+                  target="_blank" rel="noreferrer">
                   <button className="font-bold text-gray self-end">
                     Visit the site
                   </button>

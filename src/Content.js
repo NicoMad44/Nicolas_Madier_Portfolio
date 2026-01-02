@@ -2,11 +2,13 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import html from "./assets/images/Skills/html.webp";
+import css from "./assets/images/Skills/css.svg";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import javascript from "./assets/images/Skills/javascript.png";
+import git from "./assets/images/Skills/git.png";
+import tailwind from "./assets/images/Skills/tailwind.png";
 import sass from "./assets/images/Skills/sass.png";
 import reactRouter from "./assets/images/Skills/reactRouter.png";
 import mongoDB from "./assets/images/Skills/mongodb.png";
@@ -91,39 +93,44 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "HTML 5",
+        logo: html,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
-      {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
-      },
-      {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "CSS 3",
+        logo: css,
       },
       {
         name: "Sass",
-        para: "Lorem ipsum text  dummy",
         logo: sass,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
+      },
+      {
+        name: "React js",
+        logo: reactjs,
+      },
+      {
+        name: 'Tailwind CSS',
+        logo: tailwind,
+      },
+      {
+        name: "Node js",
+        logo: nodejs,
+      },
+      {
+        name: "MongoDB",
+        logo: mongoDB,
+      },
+      {
+        name: 'git',
+        logo: git,
+      },
+      {
+        name: "Figma",
+        logo: figma,
       },
     ],
     icon: MdArrowForward,

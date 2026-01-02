@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import {
@@ -10,17 +11,19 @@ import {
 import Loader from '../Loader';
 
 const Ball = (props) => {
+
+    console.log("Ball imgUrl =", props.imgUrl);
+
   const [decal] = useTexture([props.imgUrl]);
 
   return (
     <Float speed={2.5} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
+      <ambientLight intensity={1} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 2]} />
         <meshStandardMaterial
-          wireframe
-          color="#3d3d3d"
+          color="#F5F9FD"
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
