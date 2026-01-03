@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/person.webp";
 
 import figma from "./assets/images/Skills/figma.png";
 import html from "./assets/images/Skills/html.webp";
@@ -74,28 +74,28 @@ export const content = {
   ],
   hero: {
     title: "Experienced Programme Manager, Junior Web Developer",
-    firstName: "NICOALS",
+    firstName: "NICOlAS",
     LastName: "MADIER",
-    btnText: "Contact Me",
+    btnText: "Contact me",
     image: Hero_person,
     hero_content: [
       {
         count: "15+",
-        text: "Years of Experinse in Programme Management",
+        text: "Years of experience in Programme Management",
       },
       {
         count: "10+",
-        text: "Digital & Non-Digital Projects Worked in my career",
+        text: "Digital & Non-Digital Projects worked in my career",
       },
       {
-        count: "7+",
+        count: "6+",
         text: "Web Developper course projects",
       },
     ],
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "Technologies I am familiar with",
     skills_content: [
       {
         name: "HTML 5",
@@ -151,7 +151,7 @@ export const content = {
       },
       {
         title: "Head of New Fleet Commercial Readiness:",
-        para: "leading the overall go‑to‑market programme for Eurostar’s new train fleet, aligning commercial, digital, operations and customer teams. Accountable for defining the new revenue management strategy and redesigning the end‑to‑end digital booking journey, including seat maps and purchase flows for the new train type. Responsible for ensuring marketing and communications readiness to support a seamless launch and strong commercial performance of the new fleet",
+        para: "leading the overall go‑to‑market programme for Eurostar’s new train fleet, aligning commercial, digital, operations and customer teams. Accountable for the delivery of the new revenue management strategy and the redesign of the end‑to‑end digital booking journey, including seat maps and purchase flows for the new train type. Responsible for ensuring marketing and communications readiness to support a seamless launch and strong commercial performance of the new fleet",
         logo: exp_imgFleet,
       },
       {
@@ -163,7 +163,7 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "Web developper projects",
+    subtitle: "Web developper course projects",
     // image: person_project,
     project_content: [
       {
