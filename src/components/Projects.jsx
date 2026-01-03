@@ -37,7 +37,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination, Autoplay]}
-            className="rounded-3xl pb-16 w-11/12 drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 w-full drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide

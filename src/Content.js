@@ -145,18 +145,30 @@ export const content = {
     subtitle: "Heading several major transformation programmes",
     service_content: [
       {
-        title: "Head of Integration:",
-        para: "leading the overall Eurostar–Thalys integration programme, coordinating cross-functional teams and senior stakeholders across both organisations. Accountable for the end‑to‑end delivery of key integration streams, including group rebranding, consolidation of inventory and booking systems, and the rollout of a single digital platform. Driving stakeholder alignment and change management to successfully launch the new Eurostar brand with one website, one app and a unified Club Eurostar loyalty programme.",
+        title: "Head of Integration",
+        keyPoints: [
+            "Leading the overall Eurostar–Thalys integration programme, coordinating cross-functional teams and senior stakeholders across both organisations.",
+            "Accountable for the end‑to‑end delivery of key integration streams, including group rebranding, consolidation of inventory and booking systems, and the rollout of a single digital platform.",
+            "Driving stakeholder alignment and change management to successfully launch the new Eurostar brand with one website, one app and a unified Club Eurostar loyalty programme.",
+          ],
         logo: exp_imgIntegration,
       },
       {
-        title: "Head of New Fleet Commercial Readiness:",
-        para: "leading the overall go‑to‑market programme for Eurostar’s new train fleet, aligning commercial, digital, operations and customer teams. Accountable for the delivery of the new revenue management strategy and the redesign of the end‑to‑end digital booking journey, including seat maps and purchase flows for the new train type. Responsible for ensuring marketing and communications readiness to support a seamless launch and strong commercial performance of the new fleet",
+        title: "Head of New Fleet Commercial Readiness",
+        keyPoints: [
+            "Leading the overall go‑to‑market programme for Eurostar’s new train fleet, aligning commercial, digital, operations and customer teams.",
+            "Accountable for the delivery of the new revenue management strategy and the redesign of the end‑to‑end digital booking journey, including seat maps and purchase flows for the new train type.",
+            "Responsible for ensuring marketing and communications readiness to support a seamless launch and strong commercial performance of the new fleet",
+          ],
         logo: exp_imgFleet,
       },
       {
         title: "Chief of Staff to the CEO and Head of Programme Delivery",
-        para: "providing overall coordination between the executive office and the company’s strategic programmes. Preparing and supporting Executive Committee meetings end-to-end (agendas, briefing packs and dashboards, note-taking and formal minutes, tracking decisions and actions). Monitoring and challenging progress on key strategic initiatives, consolidating cross-functional updates, and providing overarching programme governance and stakeholder alignment for the CEO and ExCom.",
+        keyPoints: [
+          "Providing overall coordination between the executive office and the company’s strategic programmes.",
+          "Preparing and supporting Executive Committee meetings end-to-end (agendas, briefing packs and dashboards, note-taking and formal minutes, tracking decisions and actions).",
+          "Monitoring and challenging progress on key strategic initiatives, consolidating cross-functional updates, and providing overarching programme governance and stakeholder alignment for the CEO and ExCom.",
+        ],
         logo: exp_imgChief,
       },
     ],
