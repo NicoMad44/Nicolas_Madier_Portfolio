@@ -23,7 +23,7 @@ import projectKasa from "./assets/images/projects/imgKasa.png";
 import projectGrimoire from "./assets/images/projects/imgGrimoire.png";
 import projectBooki from "./assets/images/projects/imgBooki.png";
 import projectArchi from "./assets/images/projects/imgArchi.png";
-import person_project from "./assets/images/projects/person.png";
+//import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -35,18 +35,16 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { MdArrowForward } from "react-icons/md";
+//import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+//import { BiUser } from "react-icons/bi";
+//import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaLayerGroup } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 
-
-import React from "react";
 
 export const content = {
   nav: [

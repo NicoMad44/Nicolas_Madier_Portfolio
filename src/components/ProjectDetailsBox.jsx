@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/react-in-jsx-scope */
-import arrow from "../assets/images/arrowUp.png"
+import React from "react";
 import { useState } from "react"
 import { HiChevronUp } from "react-icons/hi";
 

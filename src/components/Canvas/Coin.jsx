@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unknown-property */
+
 import React, { Suspense, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import {

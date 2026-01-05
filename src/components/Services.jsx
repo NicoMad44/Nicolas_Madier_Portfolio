@@ -1,4 +1,4 @@
-/* eslint-disable react/react-in-jsx-scope */
+import React from "react";
 import { content } from "../Content";
 
 const Services = () => {
@@ -27,8 +27,8 @@ const Services = () => {
               <br/>
               <ul className="list-disc list-inside">
                 {content.keyPoints.map((point,j) => (
-                  <div>
-                  <li key={j}>{point}</li>
+                  <div key={j}>
+                  <li>{point}</li>
                   <br/>
                   </div>
                 ))}

@@ -10,8 +10,6 @@ import "swiper/css/pagination";
 // Import Project Details collapsable box
 import { ProjectDetailsBox } from "./ProjectDetailsBox";
 
-import { CoinCanvas } from './canvas';
-
 import { Pagination, Autoplay } from "swiper";
 
 const Projects = () => {

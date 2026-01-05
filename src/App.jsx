@@ -5,8 +5,8 @@ import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
-import Hireme from "./components/Hireme";
+//import Testimonials from "./components/Testimonials";
+//import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
 // Animation package

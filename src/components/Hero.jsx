@@ -1,6 +1,5 @@
-/* eslint-disable react/react-in-jsx-scope */
+import React from "react";
 // import content
-import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
