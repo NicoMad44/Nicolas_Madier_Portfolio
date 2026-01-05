@@ -12,8 +12,7 @@ import tailwind from "./assets/images/Skills/tailwind.png";
 import sass from "./assets/images/Skills/sass.png";
 import reactRouter from "./assets/images/Skills/reactRouter.png";
 import mongoDB from "./assets/images/Skills/mongodb.png";
-import jwtLogo from "./assets/images/Skills/jwt.png";
-import bcryptLogo from "./assets/images/Skills/bcrypt.jpeg";
+import jwtLogo from "./assets/images/Skills/jwt.webp";
 
 
 import exp_imgIntegration from "./assets/images/Services/imgIntegration.png";
@@ -130,6 +129,10 @@ export const content = {
         logo: mongoDB,
       },
       {
+        name: "JWT",
+        logo: jwtLogo,
+      },
+      {
         name: 'git',
         logo: git,
       },
@@ -234,7 +237,7 @@ export const content = {
         title: "Grimoire - Book review site",
         image: projectGrimoire,
         url: "https://nicomad44.github.io/frontend/",
-        skillsTags: [nodejs, mongoDB, jwtLogo, bcryptLogo],
+        skillsTags: [nodejs, mongoDB, jwtLogo],
         description: [
           {
             subtitle: "Context",
@@ -279,10 +282,10 @@ export const content = {
         ],
       },
       {
-        title: "Booki - Travel agency homepage",
+        title: "Booki - Mockup Integration",
         image: projectBooki,
         url: "https://nicomad44.github.io/booki/",
-        skillsTags: [nodejs, mongoDB, jwtLogo, bcryptLogo],
+        skillsTags: [html, css, figma, git ],
         description: [
           {
             subtitle: "Context",
@@ -328,9 +331,7 @@ export const content = {
         title: "Portofolio Architecte",
         image: projectArchi,
         url: "https://nicomad44.github.io/Portfolio-architecte-sophie-bluel/",
-        skillsTags: [
-          reactjs,
-        ],
+        skillsTags: [reactjs, git, javascript ],
         description: [
           {
             subtitle: "Context",

@@ -23,7 +23,7 @@ const Skills = () => {
         {skills.skills_content.map((skill, i) => (
           <div key={i+4242} data-aos="fade-up" data-aos-delay={i*150}  >
           <CoinCanvas 
-            key={i} 
+            key={`coin+${i}`} 
             icon={skill.logo} 
             />
           </div>

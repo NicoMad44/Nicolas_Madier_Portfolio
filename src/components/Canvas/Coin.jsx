@@ -44,6 +44,7 @@ const Coin = (props) => {
 const CoinCanvas = ({ icon }) => {
   const controlsRef = useRef(null);
   return (
+    <div >
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Loader />}>
         <OrbitControls
@@ -60,6 +61,7 @@ const CoinCanvas = ({ icon }) => {
 
       <Preload all />
     </Canvas>
+    </div>
   );
 };
 

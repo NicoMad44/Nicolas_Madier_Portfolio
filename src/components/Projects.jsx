@@ -10,6 +10,8 @@ import "swiper/css/pagination";
 // Import Project Details collapsable box
 import { ProjectDetailsBox } from "./ProjectDetailsBox";
 
+import { CoinCanvas } from './canvas';
+
 import { Pagination, Autoplay } from "swiper";
 
 const Projects = () => {
@@ -62,12 +64,12 @@ const Projects = () => {
                 <div className="flex flex-col gap-1 mt-2">
 
                   <h6 className="flex md:w-4/5 md:self-center flex-col mb-1 " >Skills</h6>
-                  <div className="flex flex-wrap w-4/5 self-center gap-3">
+                  <div className="flex flex-wrap w-4/5 justify-center self-center gap-6 md:gap-12">
                     {content.skillsTags.map((skill, j) => (
                         <img
                         src={skill}
                         alt="logo"
-                        className="w-10 box-content"
+                        className="w-10 h-10 md:w-20 md:h-20 box-content"
                         key={j}
                       />
                       ))}
