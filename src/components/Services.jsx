@@ -1,20 +1,20 @@
 import React from "react";
 import { content } from "../Content";
 
-const Services = () => {
-  const { services } = content;
+const Jobs = () => {
+  const { jobs } = content;
   return (
-    <section id="services">
+    <section id="jobs">
       <div className="md:container px-5 py-14">
         <h2 className="title" data-aos="fade-down">
-          {services.title}
+          {jobs.title}
         </h2>
         <h3 className="subtitle" data-aos="fade-down">
-          {services.subtitle}
+          {jobs.subtitle}
         </h3>
         <br />
         <div className="flex flex-col md:flex-row gap-5 justify-between flex-wrap group">
-          {services.service_content.map((content, i) => (
+          {jobs.service_content.map((content, i) => (
             <div
               key={i}
               data-aos="fade-up"
@@ -38,4 +38,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Jobs;

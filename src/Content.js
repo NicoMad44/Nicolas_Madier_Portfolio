@@ -15,9 +15,9 @@ import mongoDB from "./assets/images/Skills/mongodb.png";
 import jwtLogo from "./assets/images/Skills/jwt.webp";
 
 
-import exp_imgIntegration from "./assets/images/Services/imgIntegration.png";
-import exp_imgFleet from "./assets/images/Services/imgFleet.png";
-import exp_imgChief from "./assets/images/Services/imgChief.png";
+import exp_imgIntegration from "./assets/images/Jobs/imgIntegration.png";
+import exp_imgFleet from "./assets/images/Jobs/imgFleet.png";
+import exp_imgChief from "./assets/images/Jobs/imgChief.png";
 
 import projectKasa from "./assets/images/projects/imgKasa.png";
 import projectGrimoire from "./assets/images/projects/imgGrimoire.png";
@@ -50,7 +50,7 @@ export const content = {
       icon: FaLaptopCode,
     },
     {
-      link: "#services",
+      link: "#jobs",
       icon: MdWork,
     },
     {
@@ -130,7 +130,7 @@ export const content = {
     ],
     icon: MdArrowForward,
   },
-  services: {
+  jobs: {
     title: "Experienced Programme Manager",
     subtitle: "Heading several major transformation programmes",
     service_content: [

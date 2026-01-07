@@ -1,6 +1,17 @@
 import React from "react";
 import { useState } from "react"
 import { HiChevronUp } from "react-icons/hi";
+import PropTypes from 'prop-types';
+
+ProjectDetailsBox.propTypes = {
+    title: PropTypes.string.isRequired,
+    content: PropTypes.arrayOf(
+      PropTypes.shape({
+        subtitle: PropTypes.string.isRequired,
+        subtexts: PropTypes.arrayOf(PropTypes.string).isRequired,
+      })
+    ).isRequired,
+  };
 
 
 export function ProjectDetailsBox({title, content}){
@@ -15,15 +26,15 @@ export function ProjectDetailsBox({title, content}){
         }
     }
 
-    let results = []
-    for(let i=0; i<content.length; i++){
-        results.push(
-        <div className="flex flex-col p-5">
-            <h6>{content[i].subtitle}</h6>
-            <p>{content[i].subtexts}</p>
-        </div> 
-        )
-    }
+    const results = content.map((detail, index) => (
+        <div
+          className="flex flex-col p-5"
+          key={index}
+        >
+          <h6>{detail.subtitle}</h6>
+          <p>{detail.subtexts}</p>
+        </div>
+      ));
 
     return (
         <div className="flex md:w-4/5 md:self-center flex-col mb-1 ">
@@ -58,3 +69,4 @@ export function ProjectDetailsBox({title, content}){
         </div>
     )
 }
+
