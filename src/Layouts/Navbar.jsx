@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
@@ -23,6 +24,7 @@ const Navbar = () => {
       >
         {nav.map((item, i) => (
           <a
+            key={"nav"+i}
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
