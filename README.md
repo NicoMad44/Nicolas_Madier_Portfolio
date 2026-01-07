@@ -1,42 +1,54 @@
-![MacBook Air - 2 (3)](https://user-images.githubusercontent.com/75136330/203812467-8b00176d-9d31-4c09-86c0-8b82b8c661eb.png)
-![127 0 0 1_5173_ (1)](https://user-images.githubusercontent.com/75136330/203812531-baeb4957-5c7d-4222-a07a-2805b278bdbf.png)
 
-# React Portfolio 2
-### Vite + React + tailwind
+# Web Developer Portfolio – Nicolas Madier
 
-```bash 
-npm i
+This project is my professional portfolio built as part of the **Web Developer** path at OpenClassrooms.  
+It showcases my skills, projects and experience through a modern, responsive web application.
+
+## Features
+
+- **About section** with professional background and role as Programme Manager & Junior Web Developer
+- **Projects showcase** with descriptions, tech stack and links to live demos/repositories
+- **Skills section** highlighting front-end and back-end technologies
+- **Contact form** integrated with EmailJS for direct communication
+- **3D animations** using React Three Fiber for interactive visual elements
+- **Smooth scroll animations** with AOS library
+- **Fully responsive design** optimized for mobile, tablet and desktop
+
+## Tech Stack
+
+- **React 18** with Vite for fast build and development
+- **Tailwind CSS** for utility-first styling
+- **React Three Fiber & Drei** for 3D graphics and animations
+- **EmailJS** for contact form functionality
+- **Swiper.js** for touch-enabled carousels
+- **React Icons** for iconography
+- **React Modal** for modal dialogs
+- **React Hot Toast** for notifications
+- **AOS** (Animate On Scroll) for scroll animations
+- **GitHub Pages** for deployment
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/NicoMad44/Nicolas_Madier_Portfolio.git
+
+# Navigate to project directory
+cd Nicolas_Madier_Portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-```
-## You Learn:
-+ react js hooks
-+ folder structure
-+ tailwind css
-+ swiper js
-+ react icons
-+ react js packages (ex:react-modal)
-+ email js
-+ aos scroll animation
-+ and more....
 
-## youtube video link
-[Watch now](https://youtu.be/YpFK4hUZ-NM)
+## Credits
 
-## live preview link
-[See Now](https://codeaprogram-portfolio.web.app/)
+This portfolio is based on the open GitHub project
+"React Portfolio 2" by Sridhar Chandrasekar:
+https://github.com/Sridhar-C-25/react_portfolio_2
 
-## Startup repository link
-[Repository](https://github.com/Sridhar-C-25/React_portfolio_2_startup)
-
-## packages:
-+ [tailwind css](https://tailwindcss.com/docs/installation)
-+ [vite js](https://vitejs.dev/guide/)
-+ [swiper js](https://swiperjs.com/get-started)
-+ [email js](https://www.emailjs.com/docs/)
-+ [Aos (animation)](https://michalsnik.github.io/aos/)
-+ [react modal](https://www.npmjs.com/package/react-modal)
-+ [react-hot-toast](https://react-hot-toast.com/docs)
-+ [react icons](https://react-icons.github.io/react-icons/)
-
-
+The structure, sections, styling and content have been
+significantly modified to match my own profile, projects
+and design preferences.
 

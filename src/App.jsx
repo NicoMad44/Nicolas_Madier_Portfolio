@@ -32,8 +32,12 @@ const App = () => {
       <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">NICOLAS MADIER</h6>
-        {/* <p>codeaprogram © All CopyRights Reserved 2022</p> */}
+        <p className="text-sm text-gray-400">
+        © 2026 Nicolas [Last name]. All rights reserved.
+        </p>
+        <p className="text-xs text-gray-500">
+        Design inspired by &quot;React Portfolio 2&quot; by Sridhar Chandrasekar.
+        </p>
       </footer>
     </div>
   );
