@@ -19,7 +19,7 @@ export function ProjectDetailsBox({title, content}){
     for(let i=0; i<content.length; i++){
         results.push(
         <div className="flex flex-col p-5">
-            <strong>{content[i].subtitle}</strong>
+            <h6>{content[i].subtitle}</h6>
             <p>{content[i].subtexts}</p>
         </div> 
         )
@@ -33,7 +33,7 @@ export function ProjectDetailsBox({title, content}){
                 className="flex cursor-pointer justify-between align-middle   bg-bg_light_primary rounded-md mt-2 p-2 "
                 onClick={handleClick}
             >
-                <h6>{title}</h6>
+                <h5>{title}</h5>
                 <div 
                 className={`
                     flex

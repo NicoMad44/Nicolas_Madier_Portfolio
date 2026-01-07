@@ -15,9 +15,9 @@ const Skills = () => {
         <h2 className="title" data-aos="fade-down">
             {skills.title}
           </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {skills.subtitle}
-        </h4>
+        </h3>
       </div>
       <div className="grid grid-cols-3 md:grid-cols-6 gap-2 md:container px-5  py-14">
         {skills.skills_content.map((skill, i) => (

@@ -21,9 +21,9 @@ const Projects = () => {
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
           </h2>
-          <h4 className="subtitle" data-aos="fade-down">
+          <h3 className="subtitle" data-aos="fade-down">
             {Projects.subtitle}
-          </h4>
+          </h3>
           <br />
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
@@ -61,13 +61,13 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col gap-1 mt-2">
 
-                  <h6 className="flex md:w-4/5 md:self-center flex-col mb-1 " >Skills</h6>
+                  <h5 className="flex md:w-4/5 md:self-center flex-col mb-1 " >Skills</h5>
                   <div className="flex flex-wrap w-4/5 justify-center self-center gap-6 md:gap-12">
                     {content.skillsTags.map((skill, j) => (
                         <img
                         src={skill}
                         alt="logo"
-                        className="w-10 h-10 md:w-20 md:h-20 box-content"
+                        className="w-9 h-9 md:w-20 md:h-20 box-content"
                         key={j}
                       />
                       ))}

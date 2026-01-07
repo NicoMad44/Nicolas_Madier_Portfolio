@@ -9,9 +9,9 @@ const Services = () => {
         <h2 className="title" data-aos="fade-down">
           {services.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {services.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex flex-col md:flex-row gap-5 justify-between flex-wrap group">
           {services.service_content.map((content, i) => (
@@ -23,7 +23,7 @@ const Services = () => {
               hover:!blur-none"
             >
               <img src={content.logo} alt="..." className="mx-auto " />
-              <h6 className="my-3 text-center">{content.title}</h6>
+              <h4 className="my-3 text-center text-xl">{content.title}</h4>
               <br/>
               <ul className="list-disc list-inside">
                 {content.keyPoints.map((point,j) => (
