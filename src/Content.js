@@ -39,22 +39,27 @@ export const content = {
     {
       link: "#home",
       icon: TbSmartHome,
+      ariaLabel:"go to Home section",
     },
     {
       link: "#skills",
       icon: FaLayerGroup,
+      ariaLabel:"go to Skills section",
     },
     {
       link: "#projects",
       icon: FaLaptopCode,
+      ariaLabel:"go to Projects section",
     },
     {
       link: "#jobs",
       icon: MdWork,
+      ariaLabel:"go to Jobs section",
     },
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
+      ariaLabel:"go to Contact section",
     },
   ],
   hero: {
