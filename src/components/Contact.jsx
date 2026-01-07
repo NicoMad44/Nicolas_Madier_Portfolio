@@ -64,26 +64,29 @@ const Contact = () => {
             className="flex-1 flex flex-col gap-5"
           >
             {/* same "name" as email js templates values */}
-            <label htmlFor="from_name"></label>
+            <label htmlFor="from_name" className="hidden">Name</label>
             <input
               type="text"
+              id="from_name"
               name="from_name"
               placeholder="Name"
               required
               className="border border-slate-600 p-3 rounded"
             />
-            <label htmlFor="user_email"></label>
+            <label htmlFor="user_email" className="hidden">EMAIL</label>
             <input
               type="email"
+              id="user_email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder="Email address"
               required
               className="border border-slate-600 p-3 rounded"
             />
-            <label htmlFor="message"></label>
+            <label htmlFor="message" className="hidden">Message</label>
             <textarea
               name="message"
+              id="message"
               placeholder="Message"
               className="border border-slate-600 p-3 rounded h-44"
               required
