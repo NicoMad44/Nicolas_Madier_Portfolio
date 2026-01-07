@@ -15,14 +15,14 @@ import mongoDB from "./assets/images/Skills/mongodb.png";
 import jwtLogo from "./assets/images/Skills/jwt.webp";
 
 
-import exp_imgIntegration from "./assets/images/Jobs/imgIntegration.png";
-import exp_imgFleet from "./assets/images/Jobs/imgFleet.png";
-import exp_imgChief from "./assets/images/Jobs/imgChief.png";
+import exp_imgIntegration from "./assets/images/Jobs/imgIntegration.webp";
+import exp_imgFleet from "./assets/images/Jobs/imgFleet.webp";
+import exp_imgChief from "./assets/images/Jobs/imgChief.webp";
 
-import projectKasa from "./assets/images/projects/imgKasa.png";
-import projectGrimoire from "./assets/images/projects/imgGrimoire.png";
-import projectBooki from "./assets/images/projects/imgBooki.png";
-import projectArchi from "./assets/images/projects/imgArchi.png";
+import projectKasa from "./assets/images/projects/imgKasa.webp";
+import projectGrimoire from "./assets/images/projects/imgGrimoire.webp";
+import projectBooki from "./assets/images/projects/imgBooki.webp";
+import projectArchi from "./assets/images/projects/imgArchi.webp";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
