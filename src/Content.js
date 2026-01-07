@@ -23,7 +23,6 @@ import projectKasa from "./assets/images/projects/imgKasa.png";
 import projectGrimoire from "./assets/images/projects/imgGrimoire.png";
 import projectBooki from "./assets/images/projects/imgBooki.png";
 import projectArchi from "./assets/images/projects/imgArchi.png";
-//import person_project from "./assets/images/projects/person.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
