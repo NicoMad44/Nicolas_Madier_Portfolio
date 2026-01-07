@@ -23,12 +23,14 @@ const App = () => {
   }, []);
   return (
     <div className="">
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Jobs />
-      <Contact />
+      <main>
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Projects />
+        <Jobs />
+        <Contact />
+      </main>
       <footer className="p-3 text-center">
         <p className="text-sm text-gray-400">
         © 2026 Nicolas MADIER. All rights reserved.
