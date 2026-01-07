@@ -46,7 +46,7 @@ const Hero = () => {
             src={hero.image}
             data-aos="slide-up"
             alt="..."
-            className="h-full object-cover"
+            className="h-full object-contain"
           />
         </div>
       </div>

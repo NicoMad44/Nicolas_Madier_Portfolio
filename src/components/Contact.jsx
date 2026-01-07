@@ -52,7 +52,7 @@ const Contact = () => {
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="subtitle !text-white" data-aos="fade-down">
           {Contact.subtitle}
         </h4>
         <br />
@@ -64,7 +64,7 @@ const Contact = () => {
             className="flex-1 flex flex-col gap-5"
           >
             {/* same "name" as email js templates values */}
-            <label htmlFor="from_name" className="hidden">Name</label>
+            <label htmlFor="from_name" className="sr-only">Name</label>
             <input
               type="text"
               id="from_name"
@@ -73,7 +73,7 @@ const Contact = () => {
               required
               className="border border-slate-600 p-3 rounded"
             />
-            <label htmlFor="user_email" className="hidden">EMAIL</label>
+            <label htmlFor="user_email" className="sr-only">EMAIL</label>
             <input
               type="email"
               id="user_email"
@@ -83,7 +83,7 @@ const Contact = () => {
               required
               className="border border-slate-600 p-3 rounded"
             />
-            <label htmlFor="message" className="hidden">Message</label>
+            <label htmlFor="message" className="sr-only">Message</label>
             <textarea
               name="message"
               id="message"
@@ -106,8 +106,8 @@ const Contact = () => {
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank" rel="noreferrer">
+                <div className="text-white text-4xl">{createElement(content.icon)}</div>
+                <a className="font-Poppins text-xl" href={content.link} target="_blank" rel="noreferrer">
                   {content.text}
                 </a>
               </div>
