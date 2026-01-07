@@ -183,6 +183,7 @@ export const content = {
         title: "Kasa - Apartment sharing platform",
         image: projectKasa,
         url: "https://nicomad44.github.io/Kasa/",
+        repo: "https://github.com/NicoMad44/Kasa",
         skillsTags: [reactjs, sass, reactRouter],
         description: [
           {
@@ -234,7 +235,7 @@ export const content = {
       {
         title: "Grimoire - Book review site",
         image: projectGrimoire,
-        url: "https://nicomad44.github.io/frontend/",
+        repo: "https://github.com/NicoMad44/backend",
         skillsTags: [nodejs, mongoDB, jwtLogo],
         description: [
           {
@@ -283,6 +284,7 @@ export const content = {
         title: "Booki - Mockup Integration",
         image: projectBooki,
         url: "https://nicomad44.github.io/booki/",
+        repo: "https://github.com/NicoMad44/Kasa",
         skillsTags: [html, css, figma, git ],
         description: [
           {
@@ -329,6 +331,7 @@ export const content = {
         title: "Portofolio Architecte",
         image: projectArchi,
         url: "https://nicomad44.github.io/Portfolio-architecte-sophie-bluel/",
+        repo: "https://github.com/NicoMad44/Kasa",
         skillsTags: [reactjs, git, javascript ],
         description: [
           {

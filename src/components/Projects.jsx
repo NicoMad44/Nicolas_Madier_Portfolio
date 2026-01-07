@@ -46,18 +46,44 @@ const Projects = () => {
               >
                 <h4 className="font-bold font-Poppins self-center">{content.title}</h4>
                 <br/>
-                <a className="self-center cursor-pointer"
-                  href={content.url}
+
+                   {content.url ? (
+                        <a
+                          className="self-center cursor-pointer"
+                          href={content.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <img
+                            className="rounded-2xl self-center"
+                            src={content.image}
+                            alt="site home page screenshot"
+                          />
+                        </a>
+                      ) : (
+                        <img
+                          className="rounded-2xl self-center"
+                          src={content.image}
+                          alt="site home page screenshot"
+                        />
+                      )}
+                <div className="flex  gap-5 md:gap-60 mt-2 self-center ">
+                  
+                  {content.url && (
+                    <a href={content.url} target="_blank" rel="noreferrer">
+                      <button className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
+                        Visit the site
+                      </button>
+                    </a>
+                  )}
+
+                  <a href={content.repo}
                   target="_blank" rel="noreferrer">
-                    <img className="rounded-2xl self-center" src={content.image} alt="site home page screenshot" />
-                </a>
-                <div className="flex flex-col gap-1 mt-2 self-center w-fit px-8 py-3 rounded-full bg-bg_light_primary">
-                  <a href={content.url}
-                  target="_blank" rel="noreferrer">
-                  <button className="font-bold text-gray text-center cursor-pointer">
-                    Visit the site
+                  <button className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
+                    GitHub Link
                   </button>
                   </a>
+
                 </div>
                 <div className="flex flex-col gap-1 mt-2">
 
