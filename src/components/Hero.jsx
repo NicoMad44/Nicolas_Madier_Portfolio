@@ -1,5 +1,4 @@
 import React from "react";
-// import content
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
@@ -18,7 +17,6 @@ const Hero = () => {
           </h1>
         </div>
 
-        {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
@@ -43,7 +41,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* sec col */}
         <div className="md:h-[37rem] h-80">
           <img
             src={hero.image}

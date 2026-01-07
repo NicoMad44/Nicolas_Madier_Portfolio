@@ -1,5 +1,5 @@
-/* eslint-disable react/react-in-jsx-scope */
-import { createElement, useRef } from "react";
+
+import { createElement, useRef, React } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -63,7 +63,7 @@ const Contact = () => {
             data-aos="fade-up"
             className="flex-1 flex flex-col gap-5"
           >
-            {/* Input Name as same as email js templates values */}
+            {/* same "name" as email js templates values */}
             <input
               type="text"
               name="from_name"
@@ -101,7 +101,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <a className="font-Poppins" href={content.link} target="_blank" rel="noreferrer">
                   {content.text}
                 </a>
               </div>

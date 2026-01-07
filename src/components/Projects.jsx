@@ -1,7 +1,8 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { content } from "../Content";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,7 +11,6 @@ import "swiper/css/pagination";
 // Import Project Details collapsable box
 import { ProjectDetailsBox } from "./ProjectDetailsBox";
 
-import { Pagination, Autoplay } from "swiper";
 
 const Projects = () => {
   const { Projects } = content;

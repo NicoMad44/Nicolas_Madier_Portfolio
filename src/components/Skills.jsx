@@ -1,10 +1,7 @@
-/* eslint-disable react/react-in-jsx-scope */
 // import content
 import { content } from "../Content";
 // import ball
 import { CoinCanvas } from './canvas';
-
-
 
 const Skills = () => {
   const { skills } = content;
@@ -29,12 +26,7 @@ const Skills = () => {
           </div>
 
         ))}
-
-
-
-        
       </div>
-
     </section>
   );
 };

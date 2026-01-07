@@ -25,10 +25,8 @@ export function ProjectDetailsBox({title, content}){
         )
     }
 
-
     return (
         <div className="flex md:w-4/5 md:self-center flex-col mb-1 ">
-
             <div 
                 className="flex cursor-pointer justify-between align-middle   bg-bg_light_primary rounded-md mt-2 p-2 "
                 onClick={handleClick}
@@ -58,6 +56,5 @@ export function ProjectDetailsBox({title, content}){
                 </div>  
             </div>
         </div>
-
     )
 }
