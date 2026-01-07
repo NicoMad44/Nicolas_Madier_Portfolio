@@ -64,6 +64,7 @@ const Contact = () => {
             className="flex-1 flex flex-col gap-5"
           >
             {/* same "name" as email js templates values */}
+            <label htmlFor="from_name"></label>
             <input
               type="text"
               name="from_name"
@@ -71,6 +72,7 @@ const Contact = () => {
               required
               className="border border-slate-600 p-3 rounded"
             />
+            <label htmlFor="user_email"></label>
             <input
               type="email"
               name="user_email"
@@ -79,6 +81,7 @@ const Contact = () => {
               required
               className="border border-slate-600 p-3 rounded"
             />
+            <label htmlFor="message"></label>
             <textarea
               name="message"
               placeholder="Message"

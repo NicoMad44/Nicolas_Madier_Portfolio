@@ -1,3 +1,4 @@
+import React from "react";
 // import content
 import { content } from "../Content";
 // import ball

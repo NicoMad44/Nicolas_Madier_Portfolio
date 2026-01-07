@@ -36,6 +36,10 @@ Coin.propTypes = {
   imgUrl: PropTypes.string.isRequired,
 };
 
+CoinCanvas.propTypes = {
+  icon: PropTypes.string.isRequired,
+};
+
 const CoinCanvas = ({ icon }) => {
   const controlsRef = useRef(null);
   return (
