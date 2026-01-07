@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
+import PropTypes from 'prop-types';
 import {
   Decal,
   Float,
@@ -29,6 +30,10 @@ const Coin = (props) => {
   </mesh>
 </Float>
   );
+};
+
+Coin.propTypes = {
+  imgUrl: PropTypes.string.isRequired,
 };
 
 const CoinCanvas = ({ icon }) => {

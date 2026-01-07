@@ -22,15 +22,12 @@ const Services = () => {
               className="min-w-[14rem] duration-300 border-2 border-slate-200 rounded-xl bg-bg_light_primary p-6 flex-1 group-hover:blur-sm 
               hover:!blur-none"
             >
-              <img src={content.logo} alt="..." className="mx-auto " />
-              <h4 className="my-3 text-center text-xl">{content.title}</h4>
+              <img src={content.logo} alt={`image representing my role as ${content.title}`} className="mx-auto max-h-[180px] " />
+              <h4 className="my-3 text-center text-xl md:min-h-[65px]">{content.title}</h4>
               <br/>
               <ul className="list-disc list-inside">
                 {content.keyPoints.map((point,j) => (
-                  <div key={j}>
-                  <li>{point}</li>
-                  <br/>
-                  </div>
+                  <li key={j} className="mb-5">{point}</li>
                 ))}
               </ul>
             </div>
