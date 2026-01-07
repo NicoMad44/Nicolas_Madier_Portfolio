@@ -63,7 +63,7 @@
     @apply md:text-3xl text-2xl;
   }
   .subtitle {
-    @apply text-gray;
+    @apply text-dark_gray;
   }
 }
 .swiper-pagination-bullet {
