@@ -173,6 +173,55 @@ export const content = {
     // image: person_project,
     project_content: [
       {
+        title: "Portofolio Architecte",
+        tagLine: "Transforming a static mockup into an interactive interface consuming an existing API.",
+        image: projectArchi,
+        url: "https://nicomad44.github.io/Portfolio-architecte-sophie-bluel/",
+        repo: "https://github.com/NicoMad44/Portfolio-architecte-sophie-bluel",
+        skillsTags: [javascript],
+        description: [
+          {
+            subtitle: "Context",
+            subtexts: [
+              "Creation of the dynamic section of an interior architect’s portfolio, with the challenge of transforming a static mockup into an interactive interface consuming an existing API.",
+            ],
+          },
+          {
+            subtitle: "Objectives",
+            subtexts: [
+              "Display and filter the architect’s projects based on API data, while managing user interactions (filters, buttons, navigation) using vanilla JavaScript. ",
+              "Implement an admin login page and an upload modal to allow adding new media, making the gallery manageable by the client.",
+            ],
+          },
+          {
+            subtitle: "Tech stack",
+            subtexts: [
+              "JavaScript ES6+ for DOM manipulation, event handling, and HTTP API calls (fetch, response and error handling). ",
+              "Provided HTML/CSS adjusted to support dynamic behavior, Figma for mockups, VS Code for development, and Git/GitHub for version control.",
+            ],
+          },
+          {
+            subtitle: "Skills developed",
+            subtexts: [
+              "Fetching and displaying data from a REST API, dynamically generating content (project cards, filters), and updating the interface without page reloads. ",
+              "Implementing basic front-end authentication (login form, token storage) and managing media upload/deletion logic through the modal.",
+            ],
+          },
+          {
+            subtitle: "Results and impact",
+            subtexts: [
+              "Delivery of a dynamic and fully functional showcase website where the client can manage her projects, demonstrating strong front-end JavaScript skills and effective API communication.",
+            ],
+          },
+          {
+            subtitle: "Improvement perspectives",
+            subtexts: [
+              "Enhance error handling and user feedback (messages, loaders), further refactor the JavaScript code, and add tests to ensure reliability of key features.",
+            ],
+          },
+        ],
+      },
+      {
         title: "Kasa",
         tagLine: "Development of the interface for a rental accommodation application",
         image: projectKasa,
@@ -319,55 +368,6 @@ export const content = {
             subtitle: "Improvement perspectives",
             subtexts: [
               "Potential addition of subtle animations, performance optimizations (images, CSS), and accessibility enhancements (ARIA, keyboard navigation) to reach production level.",
-            ],
-          },
-        ],
-      },
-      {
-        title: "Portofolio Architecte",
-        tagLine: "Transforming a static mockup into an interactive interface consuming an existing API.",
-        image: projectArchi,
-        url: "https://nicomad44.github.io/Portfolio-architecte-sophie-bluel/",
-        repo: "https://github.com/NicoMad44/Portfolio-architecte-sophie-bluel",
-        skillsTags: [javascript],
-        description: [
-          {
-            subtitle: "Context",
-            subtexts: [
-              "Creation of the dynamic section of an interior architect’s portfolio, with the challenge of transforming a static mockup into an interactive interface consuming an existing API.",
-            ],
-          },
-          {
-            subtitle: "Objectives",
-            subtexts: [
-              "Display and filter the architect’s projects based on API data, while managing user interactions (filters, buttons, navigation) using vanilla JavaScript. ",
-              "Implement an admin login page and an upload modal to allow adding new media, making the gallery manageable by the client.",
-            ],
-          },
-          {
-            subtitle: "Tech stack",
-            subtexts: [
-              "JavaScript ES6+ for DOM manipulation, event handling, and HTTP API calls (fetch, response and error handling). ",
-              "Provided HTML/CSS adjusted to support dynamic behavior, Figma for mockups, VS Code for development, and Git/GitHub for version control.",
-            ],
-          },
-          {
-            subtitle: "Skills developed",
-            subtexts: [
-              "Fetching and displaying data from a REST API, dynamically generating content (project cards, filters), and updating the interface without page reloads. ",
-              "Implementing basic front-end authentication (login form, token storage) and managing media upload/deletion logic through the modal.",
-            ],
-          },
-          {
-            subtitle: "Results and impact",
-            subtexts: [
-              "Delivery of a dynamic and fully functional showcase website where the client can manage her projects, demonstrating strong front-end JavaScript skills and effective API communication.",
-            ],
-          },
-          {
-            subtitle: "Improvement perspectives",
-            subtexts: [
-              "Enhance error handling and user feedback (messages, loaders), further refactor the JavaScript code, and add tests to ensure reliability of key features.",
             ],
           },
         ],
