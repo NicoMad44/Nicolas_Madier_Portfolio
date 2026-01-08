@@ -173,60 +173,62 @@ export const content = {
     // image: person_project,
     project_content: [
       {
-        title: "Kasa - Apartment sharing platform",
+        title: "Kasa",
+        tagLine: "Development of the interface for a rental accommodation application",
         image: projectKasa,
         url: "https://nicomad44.github.io/Kasa/",
         repo: "https://github.com/NicoMad44/Kasa",
-        skillsTags: [reactjs, sass, reactRouter],
+        skillsTags: [reactjs, sass, reactRouter, javascript],
         description: [
           {
             subtitle: "Context",
             subtexts: [
-              "Development of the interface for a rental accommodation application (KASA project) based on mockups, with a modern redesign of the site in React for a smooth and responsive experience.",
+              "Development of the interface for a rental accommodation application (KASA project) based on mockups, with a modern redesign of the site in React for a smooth and responsive experience. ",
               "The project focuses on the front-end part, consuming simulated data from a JSON file instead of a real API in order to concentrate on display logic."
             ],
           },
           {
             subtitle: "Objectives",
             subtexts: [
-              "Set up a clear React architecture with reusable components (accommodation cards, carousel, dropdowns, error page) while strictly following the provided design.",
+              "Set up a clear React architecture with reusable components (accommodation cards, carousel, dropdowns, error page) while strictly following the provided design. ",
               "Configure routing with React Router (home page, accommodation detail, About, 404) and handle URL parameters to display the correct accommodation and nonexistent routes."
             ],
           },
           {
             subtitle: "Tech stack",
             subtexts: [
-              "React for building UI components.",
-              "React Router for navigation and handling dynamic routes.",
-              "Vite to bootstrap and serve the application quickly in development.",
+              "React for building UI components. ",
+              "React Router for navigation and handling dynamic routes. ",
+              "Vite to bootstrap and serve the application quickly in development. ",
               "Node.js to run the JavaScript environment during development.",
             ],
           },
           {
             subtitle: "Skills developed",
             subtexts: [
-              "Structuring a single-page application with routes, layouts, and consistent React components.",
+              "Structuring a single-page application with routes, layouts, and consistent React components. ",
               "Handling JSON data (list of accommodations) and passing it through props to render detailed views without errors or warnings in the console.",
             ],
           },
           {
             subtitle: "Results and impact",
             subtexts: [
-              "Delivery of a functional, responsive front-end application aligned with the desktop/mobile mockups, including main pages, a 404 page, and complete navigation.",
+              "Delivery of a functional, responsive front-end application aligned with the desktop/mobile mockups, including main pages, a 404 page, and complete navigation. ",
               "Organized, readable code, ready to be integrated with a future JavaScript back end, and suitable for showcasing in a junior front-end developer portfolio.",
             ],
           },
           {
             subtitle: "Improvement perspectives",
             subtexts: [
-              "Add tests (unit and/or end-to-end), more advanced state management, and a real API to replace the static JSON.",
+              "Add tests (unit and/or end-to-end), more advanced state management, and a real API to replace the static JSON. ",
               "Improve accessibility (ARIA, keyboard navigation) and performance (image optimization, code splitting) to get closer to production level.",
             ],
           },
         ],
       },
       {
-        title: "Grimoire - Book review site",
+        title: "Grimoire",
+        tagLine: "Back-end development of a book rating site",
         image: projectGrimoire,
         repo: "https://github.com/NicoMad44/backend",
         skillsTags: [nodejs, mongoDB, jwtLogo],
@@ -246,16 +248,16 @@ export const content = {
           {
             subtitle: "Tech stack",
             subtexts: [
-              "Node.js and Express to build the API and structure the server routes.",
-              "MongoDB and Mongoose for data persistence and modeling (books, users, ratings).",
+              "Node.js and Express to build the API and structure the server routes. ",
+              "MongoDB and Mongoose for data persistence and modeling (books, users, ratings). ",
               "Security and upload tools: JWT/Bcrypt for authentication, Multer for image handling, while integrating Green Code principles.",
             ],
           },
           {
             subtitle: "Skills developed",
             subtexts: [
-              "Designing an organized REST API (routes, controllers, models) following a clear MVC architecture.",
-              "Implementing secure authentication (password hashing, JWT tokens) and managing access rights to resources.",
+              "Designing an organized REST API (routes, controllers, models) following a clear MVC architecture. ",
+              "Implementing secure authentication (password hashing, JWT tokens) and managing access rights to resources. ",
               "Handling files and basic image optimization while applying good back-end eco-design practices.",
             ],
           },
@@ -274,10 +276,11 @@ export const content = {
         ],
       },
       {
-        title: "Booki - Mockup Integration",
+        title: "Booki",
+        tagLine: "Integration of a travel agency homepage from Figma mockups",
         image: projectBooki,
         url: "https://nicomad44.github.io/booki/",
-        repo: "https://github.com/NicoMad44/Kasa",
+        repo: "https://github.com/NicoMad44/booki",
         skillsTags: [html, css, figma, git ],
         description: [
           {
@@ -295,14 +298,14 @@ export const content = {
           {
             subtitle: "Tech stack",
             subtexts: [
-              "HTML5 to structure the page content (header, sections, cards, forms, footer) in a semantic and accessible way.",
+              "HTML5 to structure the page content (header, sections, cards, forms, footer) in a semantic and accessible way. ",
               "CSS3 for styling, responsive layout (flexbox, grid, media queries), and visual state management (hover, focus, etc.).",
             ],
           },
           {
             subtitle: "Skills developed",
             subtexts: [
-              "Analyzing and interpreting Figma mockups and translating them into clean, maintainable, and well-organized code.",
+              "Analyzing and interpreting Figma mockups and translating them into clean, maintainable, and well-organized code. ",
               "Mastering responsive design techniques to adapt layout and typography to mobile, tablet, and desktop screens.",
             ],
           },
@@ -322,10 +325,11 @@ export const content = {
       },
       {
         title: "Portofolio Architecte",
+        tagLine: "Transforming a static mockup into an interactive interface consuming an existing API.",
         image: projectArchi,
         url: "https://nicomad44.github.io/Portfolio-architecte-sophie-bluel/",
-        repo: "https://github.com/NicoMad44/Kasa",
-        skillsTags: [reactjs, git, javascript ],
+        repo: "https://github.com/NicoMad44/Portfolio-architecte-sophie-bluel",
+        skillsTags: [javascript],
         description: [
           {
             subtitle: "Context",
@@ -336,21 +340,21 @@ export const content = {
           {
             subtitle: "Objectives",
             subtexts: [
-              "Display and filter the architect’s projects based on API data, while managing user interactions (filters, buttons, navigation) using vanilla JavaScript.",
+              "Display and filter the architect’s projects based on API data, while managing user interactions (filters, buttons, navigation) using vanilla JavaScript. ",
               "Implement an admin login page and an upload modal to allow adding new media, making the gallery manageable by the client.",
             ],
           },
           {
             subtitle: "Tech stack",
             subtexts: [
-              "JavaScript ES6+ for DOM manipulation, event handling, and HTTP API calls (fetch, response and error handling).",
+              "JavaScript ES6+ for DOM manipulation, event handling, and HTTP API calls (fetch, response and error handling). ",
               "Provided HTML/CSS adjusted to support dynamic behavior, Figma for mockups, VS Code for development, and Git/GitHub for version control.",
             ],
           },
           {
             subtitle: "Skills developed",
             subtexts: [
-              "Fetching and displaying data from a REST API, dynamically generating content (project cards, filters), and updating the interface without page reloads.",
+              "Fetching and displaying data from a REST API, dynamically generating content (project cards, filters), and updating the interface without page reloads. ",
               "Implementing basic front-end authentication (login form, token storage) and managing media upload/deletion logic through the modal.",
             ],
           },

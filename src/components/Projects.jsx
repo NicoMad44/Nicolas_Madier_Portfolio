@@ -46,6 +46,7 @@ const Projects = () => {
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit flex flex-col gap-2"
               >
                 <h4 className="font-bold font-Poppins self-center">{content.title}</h4>
+                <p className="font-Poppins self-center">{content.tagLine}</p>
                 <br/>
 
                    {content.url ? (
