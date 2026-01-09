@@ -11,12 +11,13 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-center">
-      <div
+      <button
         className="sm:cursor-pointer fixed top-4 left-5 md:top-10 md:left-10 z-[999] rounded-lg bg-white/40 p-2"
+        aria-label="Open Navigation Menu"
         onClick={() => setShowMenu(!showMenu)}
       >
         <HiMenuAlt2 size={34} />
-      </div>
+      </button>
       <nav
         className={`fixed  z-[999] flex items-center gap-5 bg-slate-200/60 px-6 py-3 backdrop-blur-md rounded-full text-dark_primary duration-300 ${
           showMenu ? "bottom-10" : "bottom-[-100%]"
