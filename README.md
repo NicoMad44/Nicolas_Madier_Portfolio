@@ -36,8 +36,7 @@ npm run dev
 ## Credits
 
 This portfolio is based on the open GitHub project
-"React Portfolio 2" by Sridhar Chandrasekar:
-https://github.com/Sridhar-C-25/react_portfolio_2
+"React Portfolio 2" by Sridhar Chandrasekar
 
 The structure, components, sections, styling and content have been
 significantly modified to match my own profile, projects
