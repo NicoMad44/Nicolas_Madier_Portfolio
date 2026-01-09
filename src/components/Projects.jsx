@@ -48,7 +48,6 @@ const Projects = () => {
                 <h4 className="font-bold font-Poppins self-center">{content.title}</h4>
                 <p className="font-Poppins self-center">{content.tagLine}</p>
                 <br/>
-
                    {content.url ? (
                         <a
                           className="self-center cursor-pointer"
@@ -73,17 +72,17 @@ const Projects = () => {
                   
                   {content.url && (
                     <a href={content.url} target="_blank" rel="noreferrer">
-                      <button className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
+                      <div className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
                         Visit the site
-                      </button>
+                      </div>
                     </a>
                   )}
 
                   <a href={content.repo}
                   target="_blank" rel="noreferrer">
-                  <button className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
+                  <div className="font-bold text-black text-center cursor-pointer w-fit px-8 py-3 rounded-full bg-bg_light_primary">
                     GitHub Link
-                  </button>
+                  </div>
                   </a>
 
                 </div>

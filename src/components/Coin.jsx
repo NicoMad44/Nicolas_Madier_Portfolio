@@ -5,7 +5,6 @@ import {
   Decal,
   Float,
   OrbitControls,
-  Preload,
   useTexture,
 } from '@react-three/drei';
 
@@ -51,7 +50,6 @@ const CoinCanvas = ({ icon }) => {
           }, 1000);
         }} />
         <Coin imgUrl={icon} />
-      <Preload all />
     </Canvas>
     </div>
   );
@@ -61,4 +59,4 @@ CoinCanvas.propTypes = {
   icon: PropTypes.string.isRequired,
 };
 
-export default CoinCanvas;
+export {CoinCanvas};

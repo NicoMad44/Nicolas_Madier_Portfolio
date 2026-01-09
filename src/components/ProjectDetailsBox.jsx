@@ -38,7 +38,7 @@ export function ProjectDetailsBox({title, content}){
 
     return (
         <div className="flex md:w-4/5 md:self-center flex-col mb-1 ">
-            <div 
+            <button 
                 className="flex cursor-pointer justify-between align-middle   bg-bg_light_primary rounded-md mt-2 p-2 "
                 onClick={handleClick}
             >
@@ -53,7 +53,7 @@ export function ProjectDetailsBox({title, content}){
                 >
                     <HiChevronUp size={32}/>
                 </div>
-            </div>
+            </button>
             <div 
             className={`
                 inline-block

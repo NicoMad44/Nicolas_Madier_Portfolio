@@ -1,8 +1,8 @@
 import React from "react";
 // import content
 import { content } from "../Content";
-// import ball
-import { CoinCanvas } from './canvas';
+// import coin
+import { CoinCanvas } from './Coin';
 
 const Skills = () => {
   const { skills } = content;

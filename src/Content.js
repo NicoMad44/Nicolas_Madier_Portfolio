@@ -23,6 +23,7 @@ import projectKasa from "./assets/images/projects/imgKasa.webp";
 import projectGrimoire from "./assets/images/projects/imgGrimoire.webp";
 import projectBooki from "./assets/images/projects/imgBooki.webp";
 import projectArchi from "./assets/images/projects/imgArchi.webp";
+import projectRider from "./assets/images/projects/imgRider.webp";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -368,6 +369,52 @@ export const content = {
             subtitle: "Improvement perspectives",
             subtexts: [
               "Potential addition of subtle animations, performance optimizations (images, CSS), and accessibility enhancements (ARIA, keyboard navigation) to reach production level.",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Personal projet",
+        tagLine: "Mobile web app to display live waiting time for Disneyland Paris rides",
+        image: projectRider,
+        url: "https://nicomad44.github.io/DisneylandRiderApp/",
+        repo: "https://github.com/NicoMad44/DisneylandRiderApp",
+        skillsTags: [reactjs, javascript, html, css],
+        description: [
+          {
+            subtitle: "Context",
+            subtexts: [
+              "This project was a personal React app designed to display real-time waiting times for attractions at Disneyland Paris. The goal was to create a simple, mobile-first interface that could be used directly during my visit.",
+            ],
+          },
+          {
+            subtitle: "Objectives",
+            subtexts: [
+              "The app allows users to filter attractions by park and land, and to create a list of favorites for quick access to preferred rides. The main challenges were to manage live data efficiently and design an intuitive experience for mobile users.",
+            ],
+          },
+          {
+            subtitle: "Tech stack",
+            subtexts: [
+              "React.js, JavaScript and external APIs for live park data. The app was deployed on GitHub Pages.",
+            ],
+          },
+          {
+            subtitle: "Skills developed",
+            subtexts: [
+              "I strengthened my skills in state management and component-based design with React. I also explored responsive layout principles and API integration for dynamic data display.",
+            ],
+          },
+          {
+            subtitle: "Results and impact",
+            subtexts: [
+              "The app successfully retrieves and displays updated wait times and provides basic filtering and favorites management. Although optimized for mobile, it needs big adjustments for desktop display.",
+            ],
+          },
+          {
+            subtitle: "Improvement perspectives",
+            subtexts: [
+              "Future improvments could be: better desktop responsiveness, manual refresh options, and smoother data loading."
             ],
           },
         ],
