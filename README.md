@@ -28,19 +28,10 @@ It showcases my skills, projects and experience through a modern, responsive web
 - **GitHub Pages** for deployment
 
 ## Installation
-
 ```bash
-# Clone the repository
-git clone https://github.com/NicoMad44/Nicolas_Madier_Portfolio.git
-
-# Navigate to project directory
-cd Nicolas_Madier_Portfolio
-
-# Install dependencies
 npm install
-
-# Run the development server
 npm run dev
+```
 
 ## Credits
 
@@ -48,7 +39,8 @@ This portfolio is based on the open GitHub project
 "React Portfolio 2" by Sridhar Chandrasekar:
 https://github.com/Sridhar-C-25/react_portfolio_2
 
-The structure, sections, styling and content have been
+The structure, components, sections, styling and content have been
 significantly modified to match my own profile, projects
 and design preferences.
+
 
