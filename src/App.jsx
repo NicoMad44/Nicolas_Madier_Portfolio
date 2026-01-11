@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
-import Jobs from "./components/Services";
+import Jobs from "./components/Jobs";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 

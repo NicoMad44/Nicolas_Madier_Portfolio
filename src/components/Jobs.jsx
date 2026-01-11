@@ -14,7 +14,7 @@ const Jobs = () => {
         </h3>
         <br />
         <div className="flex flex-col md:flex-row gap-5 justify-between flex-wrap group">
-          {jobs.service_content.map((content, i) => (
+          {jobs.job_content.map((content, i) => (
             <div
               key={i}
               data-aos="fade-up"

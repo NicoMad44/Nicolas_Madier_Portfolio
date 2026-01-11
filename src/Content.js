@@ -138,7 +138,7 @@ export const content = {
   jobs: {
     title: "Experienced Programme Manager",
     subtitle: "Heading several major transformation programmes",
-    service_content: [
+    job_content: [
       {
         title: "Head of Integration",
         keyPoints: [
